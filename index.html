@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadim | Data Analyst & Digital Marketer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="https://i.ibb.co.com/84SrStzW/logo.png" alt="Nadim Mahmud Profile Photo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-background">
+        <div class="particles" id="particles-js"></div>
+        <div class="header-text">
+          <p>Data Analyst || Digital Marketer</p>
+          <h1>Hi, I'm <span>Nadim</span><br>From DIU</h1>
+          <a href="#" class="cta-button">Get In Touch <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="profile-image">
+          <img src="https://i.ibb.co.com/S4rVtMhN/nadimm.jpg" alt="Nadim's Profile Picture">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Add scroll effect for navbar
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Create floating particles
+    document.addEventListener('DOMContentLoaded', function() {
+      const particlesContainer = document.getElementById('particles-js');
+      const particleCount = 30;
+      
+      for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        
+        // Random properties
+        const size = Math.random() * 5 + 2;
+        const posX = Math.random() * 100;
+        const delay = Math.random() * 15;
+        const duration = Math.random() * 10 + 10;
+        
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+        particle.style.left = `${posX}%`;
+        particle.style.bottom = `-${size}px`;
+        particle.style.animationDelay = `${delay}s`;
+        particle.style.animationDuration = `${duration}s`;
+        
+        particlesContainer.appendChild(particle);
+      }
+    });
+  </script>
+</body>
+
+</html>
+
+   <!-- About Section -->
+<div id="about">
+  <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <img src="https://i.ibb.co.com/1f304DDx/nadim.jpg" alt="Profile Image">
+          </div>
+          <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p class="about-content">I am Nadim Mahmud, a third-year Software Engineering student at Daffodil International University with expertise in both technical and creative domains..</p>
+
+              <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="openTab('skills', event)">Skills</p>
+                  <p class="tab-links" onclick="openTab('experience', event)">Experience</p>
+                  <p class="tab-links" onclick="openTab('education', event)">Education</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                      <li><span>Data Science & ML</span><br>Data Analysis, Predictive Modeling, AI Solutions</li>
+                      <li><span>Digital Marketing</span><br>SEO, Social Media Strategy, Campaign Management</li>
+                      <li><span>Python Development</span><br>Django, Flask, Automation Scripts</li>
+                      <li><span>Frontend Development</span><br>Responsive Design, React, Modern CSS</li>
+                      <li><span>Data Visualization</span><br>Tableau, Power BI, Matplotlib</li>
+                  </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                  <ul>
+                      <li><span>AI Research Assistant</span><br>Mi Research Lab • 2025-Present</li>
+                      <li><span>Digital Marketing Specialist</span><br>Freelance • 2024-Present</li>
+                      <li><span>Web Developer</span><br>Student Projects • 2022-Present</li>
+                      <li><span>Data Analyst </span><br>Tech Company • Summer 2024</li>
+                  </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                  <ul>
+                      <li><span>B.Sc Software Engineering</span><br>Daffodil International University • 2022-2026</li>
+                      <li><span>Data Science Certification</span><br>Ostadh • 2023</li>
+                      <li><span>Digital Marketing Certification</span><br>Sr Dream IT • 2022</li>
+                      <li><span>Higher Secondary</span><br>Milestone College • 2019-2021</li>
+                      <li><span>Secondary School</span><br>Asiya Bari Ideal School • 2019</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!-- Services Section with Font Awesome Icons -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div class="service">
+          <i class="fas fa-chart-line"></i>
+          <h2>Data Analyst</h2>
+          <p>As a Data Analyst, I specialize in data cleaning, visualization, and statistical analysis using Python (Pandas, NumPy, Matplotlib, Seaborn) and SQL. I have experience in data-driven decision-making, automation, dashboard creation (Power BI, Tableau), and predictive modeling using Machine Learning.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="service">
+          <i class="fas fa-cogs"></i>
+          <h2>Automation Engineer</h2>
+          <p>As an Automation Engineer, I specialize in process automation, scripting, and workflow optimization using Python (Selenium, Pandas), Bash, and SQL. I have experience in RPA (Robotic Process Automation), API integrations, data pipeline automation, and task scheduling to enhance efficiency and reduce manual workload.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="service">
+          <i class="fas fa-bullhorn"></i>
+          <h2>Digital Marketer</h2>
+          <p>As a Digital Marketer, I specialize in SEO, SEM, social media marketing, and data-driven advertising. I have expertise in Google Ads, Facebook Ads, email marketing, content strategy, and web analytics (Google Analytics, SEO tools) to optimize campaigns and maximize audience engagement.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Section - Dark Theme -->
+<div id="portfolio" class="dark-portfolio">
+  <div class="container">
+    <div class="section-header">
+      <h1 class="sub-title">My <span>Projects</span></h1>
+      <p class="section-description">Selected works showcasing data and marketing excellence</p>
+    </div>
+
+    <div class="work-grid">
+      <!-- Project 1 - Facebook Ads -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://i.ibb.co.com/h1VrH9pG/workdemo1.png"" alt="Facebook Ads Campaign">
+          <div class="project-badge">
+            <i class="fab fa-facebook-f"></i>
+            <span>Social Ads</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Facebook Ads Suite</h3>
+          <div class="project-stats">
+            <div class="stat">
+              <i class="fas fa-chart-line"></i>
+              <span>78% ROI</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-users"></i>
+              <span>50K+ Reach</span>
+            </div>
+          </div>
+          <p>Optimized ad campaigns that increased conversion rates while reducing cost-per-acquisition.</p>
+          <div class="project-actions">
+            <a href="#" class="action-btn analytics-btn">
+              <i class="fas fa-chart-pie"></i> Analytics
+            </a>
+            <a href="#" class="action-btn preview-btn">
+              <i class="fas fa-eye"></i> Preview
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 - Data Analysis -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://i.ibb.co.com/93Vz9v4m/workdemo.png" alt="Data Analysis Project">
+          <div class="project-badge">
+            <i class="fas fa-database"></i>
+            <span>Data Science</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Sales Analytics</h3>
+          <div class="project-stats">
+            <div class="stat">
+              <i class="fas fa-bolt"></i>
+              <span>30% Faster</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-lightbulb"></i>
+              <span>15 Insights</span>
+            </div>
+          </div>
+          <p>Automated ETL pipeline with interactive dashboards that revealed key business opportunities.</p>
+          <div class="project-actions">
+            <a href="#" class="action-btn notebook-btn">
+              <i class="fab fa-python"></i> Notebook
+            </a>
+            <a href="#" class="action-btn code-btn">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 - Excel Dashboard -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://i.ibb.co.com/bMhYr3yp/workdemo2.png" alt="Excel Dashboard">
+          <div class="project-badge">
+            <i class="fas fa-file-excel"></i>
+            <span>Automation</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Financial Dashboard</h3>
+          <div class="project-stats">
+            <div class="stat">
+              <i class="fas fa-clock"></i>
+              <span>90% Faster</span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-check-circle"></i>
+              <span>Error-Free</span>
+            </div>
+          </div>
+          <p>Dynamic financial reporting system with automated data refreshes and interactive visualizations.</p>
+          <div class="project-actions">
+            <a href="#" class="action-btn template-btn">
+              <i class="fas fa-download"></i> Template
+            </a>
+            <a href="#" class="action-btn demo-btn">
+              <i class="fas fa-play"></i> Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-cta">
+      <p>Want to explore more projects?</p>
+      <a href="#" class="cta-btn">
+        View Full Portfolio <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Premium Blog Section -->
+<section id="insights" class="blog-section">
+  <div class="container">
+    <div class="section-intro">
+      <span class="section-tag">Insights</span>
+      <h2 class="section-title">Thought <span class="highlight">Leadership</span></h2>
+      <div class="section-controls">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tutorial">Tutorials</button>
+        <button class="filter-btn" data-filter="trends">Trends</button>
+        <button class="filter-btn" data-filter="case-study">Case Studies</button>
+      </div>
+    </div>
+
+    <div class="article-grid">
+      <!-- Article 1 -->
+      <article class="article-card" data-category="tutorial">
+        <div class="article-header">
+          <div class="category-pill tutorial">Tutorial</div>
+          <div class="article-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                 alt="Python data analysis" 
+                 loading="lazy">
+          </div>
+        </div>
+        <div class="article-body">
+          <time datetime="2023-11-15">Nov 15, 2023 • 8 min read</time>
+          <h3><a href="#">Modern Python Data Stack: Beyond Pandas</a></h3>
+          <p class="article-excerpt">Discover how Polars, DuckDB, and other next-gen tools are reshaping data workflows with 10x performance gains.</p>
+        </div>
+        <div class="article-footer">
+          <a href="#" class="read-more">
+            Read Article
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+     <!-- Article 2 -->
+<article class="article-card" data-category="trends">
+  <div class="article-header">
+    <div class="category-pill trends">Trend Analysis</div>
+    <div class="article-image">
+      <img src=" https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" 
+           alt="AI trends 2024" 
+           width="100%" height="220px"
+           style="object-fit: cover; display: block;">
+    </div>
+  </div>
+  <div class="article-body">
+    <time datetime="2023-11-05">Nov 5, 2023 • 12 min read</time>
+    <h3><a href="#">2024 AI Predictions: The Data Professional's Guide</a></h3>
+    <p class="article-excerpt">Which AI advancements will actually impact your work? We separate hype from reality.</p>
+  </div>
+  <div class="article-footer">
+    <a href="#" class="read-more">
+      Read Article
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</article>
+
+
+      <!-- Article 3 -->
+      <article class="article-card" data-category="case-study">
+        <div class="article-header">
+          <div class="category-pill case-study">Case Study</div>
+          <div class="article-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" 
+                 alt="Marketing analytics dashboard" 
+                 loading="lazy">
+          </div>
+        </div>
+        <div class="article-body">
+          <time datetime="2023-10-22">Oct 22, 2023 • 15 min read</time>
+          <h3><a href="#">How We Boosted E-Commerce Conversions by 240%</a></h3>
+          <p class="article-excerpt">A deep dive into the data pipeline optimizations that drove record-breaking results.</p>
+        </div>
+        <div class="article-footer">
+          <a href="#" class="read-more">
+            Read Article
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="section-footer">
+      <a href="/blog" class="view-all-btn">
+        Explore All Insights
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact <span>Me</span></h1>
+        <p><i class="fas fa-envelope"></i> mahmudnadim479@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +880 1617-246308</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/nadim-mahmud-8b37152a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/nadim7009" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/share/1AEAKo3pxT/?mibextid=wwXIfr" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/mahmud_nad49680?s=21" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/nadimmahmud_75?igsh=MTJ0eGRxeWM3M25oZA%3D%3D&utm_source=qr" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#" class="btn btn-cv"><i class="fas fa-download"></i> Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="form-group">
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <button type="submit" class="btn btn-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="copyright">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="image/logo(2).png" alt="">
+      </div>
+      <div class="footer-text">
+        <p>© <span id="year"></span> Nadim Mahmud. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms of Service</a>
+          <span>•</span>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ========== MOBILE MENU FUNCTIONS ==========
+function openMenu() {
+    document.getElementById("sidemenu").style.right = "0";
+    document.getElementById("menu-icon").style.display = "none";
+}
+
+function closeMenu() {
+    document.getElementById("sidemenu").style.right = "-200px";
+    document.getElementById("menu-icon").style.display = "block";
+}
+
+// ========== TAB SYSTEM FUNCTIONALITY ==========
+function openTab(tabName, evt) {
+    // Hide all tab contents
+    const tabContents = document.getElementsByClassName("tab-contents");
+    for (let content of tabContents) {
+        content.classList.remove("active-tab");
+    }
+    
+    // Deactivate all tab links
+    const tabLinks = document.getElementsByClassName("tab-links");
+    for (let link of tabLinks) {
+        link.classList.remove("active-link");
+    }
+    
+    // Show selected tab and activate its link
+    document.getElementById(tabName).classList.add("active-tab");
+    evt.currentTarget.classList.add("active-link");
+}
+
+// ========== ENHANCED SMOOTH SCROLLING ==========
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        // Close mobile menu if open
+        if (window.innerWidth <= 768) {
+            try {
+                closeMenu();
+            } catch (error) {
+                console.error("Menu close error:", error);
+            }
+        }
+        
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId === "#") return;
+        
+        const target = document.querySelector(targetId);
+        if (target) {
+            // Add scroll offset for fixed header
+            const yOffset = -80; 
+            const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            
+            window.scrollTo({
+                top: y,
+                behavior: 'smooth'
+            });
+
+            // Update URL without page jump
+            history.pushState(null, null, targetId);
+            
+            // Update active nav link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            this.classList.add('active');
+        }
+    });
+});
+
+// ========== ROBUST COPYRIGHT YEAR ==========
+function updateCopyrightYear() {
+    try {
+        const yearElement = document.getElementById('year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+            // Add ARIA live region for accessibility
+            yearElement.setAttribute('aria-live', 'polite');
+        }
+    } catch (error) {
+        console.error("Copyright year update failed:", error);
+    }
+}
+
+// ========== IMPROVED TAB INITIALIZATION ==========
+function setDefaultTab() {
+    try {
+        const defaultTab = document.querySelector('.tab-links');
+        if (defaultTab) {
+            // More reliable way to extract tab ID
+            const onclickAttr = defaultTab.getAttribute('onclick');
+            const defaultTabId = onclickAttr?.match(/'([^']+)'/)?.pop();
+            
+            if (defaultTabId && !document.querySelector('.tab-contents.active-tab')) {
+                const targetTab = document.getElementById(defaultTabId);
+                if (targetTab) {
+                    targetTab.classList.add('active-tab');
+                    defaultTab.classList.add('active-link');
+                }
+            }
+        }
+    } catch (error) {
+        console.error("Tab initialization error:", error);
+    }
+}
+
+// ========== MODERN DOCUMENT READY ==========
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize functions
+    updateCopyrightYear();
+    setDefaultTab();
+    
+    // Intersection Observer for scroll effects
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+    }
+    
+    // Debounced resize handler
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            if (window.innerWidth > 768) {
+                // Reset mobile menu on desktop
+                try {
+                    document.getElementById('sidemenu').style.right = "0";
+                } catch (error) {
+                    console.error("Menu reset error:", error);
+                }
+            }
+        }, 250);
+    });
+});
+
+// ========== ENHANCED ERROR HANDLING ==========
+window.addEventListener('error', function(e) {
+    console.error('Script error:', e.message, 'in', e.filename, 'line', e.lineno);
+});
+</script>
+</body>
+</html>
