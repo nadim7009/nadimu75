@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Greeting from Nadim,don't copy my style rather try hard gain knowledge */
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +78,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* Header Section */
+/* Lets make header cool?Okay lets do it*/
 #header {
   height: 100vh;
   display: flex;
@@ -96,7 +96,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* Header Text (Left Mid) */
+
 .header-text {
   max-width: 500px;
   z-index: 10;
@@ -119,7 +119,7 @@ nav ul li a:hover::after {
   text-shadow: 0 0 15px rgba(0, 204, 255, 0.7);
 }
 
-/* Profile Image (Right Mid) */
+/* I know I am handsome but need to adjust the bg here */
 .profile-image {
   width: 400px;
   height: 400px;
@@ -141,7 +141,7 @@ nav ul li a:hover::after {
   transform: scale(1.05);
 }
 
-/* CTA Button */
+
 .cta-button {
   display: inline-block;
   background: transparent;
@@ -190,7 +190,7 @@ nav ul li a:hover::after {
   transform: translateX(5px);
 }
 
-/* Particles */
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -200,7 +200,7 @@ nav ul li a:hover::after {
   z-index: 1;
 }
 
-/* Floating Animation */
+
 @keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-20px); }
@@ -251,8 +251,7 @@ nav ul li a:hover::after {
 }
 
 
-/* ========== About Section ========== */
-/* ========== About Section - Professional Design ========== */
+/* ========== Let's kill the About Section ========== */
 #about {
   padding: 90px 5%;
   background: #080808;
@@ -291,7 +290,7 @@ nav ul li a:hover::after {
   align-items: center;
 }
 
-/* ========== Profile Image Column ========== */
+
 .about-col-1 {
   flex: 0 0 38%;
   min-width: 300px;
@@ -317,7 +316,7 @@ nav ul li a:hover::after {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* ========== Content Column ========== */
+
 .about-col-2 {
   flex: 0 0 55%;
   min-width: 300px;
@@ -354,7 +353,7 @@ nav ul li a:hover::after {
   color: #c0c0c0;
 }
 
-/* ========== Tab Navigation ========== */
+
 .tab-titles {
   display: flex;
   margin: 30px 0 25px;
@@ -387,7 +386,7 @@ nav ul li a:hover::after {
   box-shadow: 0 4px 15px rgba(255, 0, 79, 0.3);
 }
 
-/* ========== Tab Contents ========== */
+
 .tab-contents {
   display: none;
   animation: fadeIn 0.5s ease forwards;
@@ -429,7 +428,7 @@ nav ul li a:hover::after {
   margin-bottom: 5px;
 }
 
-/* ========== Animations ========== */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -441,7 +440,7 @@ nav ul li a:hover::after {
   }
 }
 
-/* ========== Responsive Design ========== */
+/* ==========For my little little bro's Responsive Design ========== */
 @media (max-width: 1100px) {
   .row {
     gap: 40px;
@@ -515,10 +514,10 @@ nav ul li a:hover::after {
     font-size: 0.88rem;
   }
 }
-/* ========== Services Section - Pure Dark Elegance ========== */
+
 #services {
   padding: 80px 0;
-  background-color: #080808; /* Deep dark background */
+  background-color: #080808; 
   position: relative;
   overflow: hidden;
 }
@@ -569,7 +568,7 @@ nav ul li a:hover::after {
   transition: opacity 0.4s ease;
 }
 
-/* Icon Styling */
+
 .service i {
   font-size: 60px;
   color: #ff004f;
@@ -597,7 +596,7 @@ nav ul li a:hover::after {
   transition: all 0.3s ease;
 }
 
-/* Hover Effects */
+
 .service:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(255, 0, 79, 0.2);
@@ -623,7 +622,7 @@ nav ul li a:hover::after {
   color: #d3d3d3;
 }
 
-/* ========== Footer - Dark Elegance ========== */
+
 .footer {
   text-align: center;
   padding: 40px 20px;
@@ -671,9 +670,9 @@ nav ul li a:hover::after {
       font-size: 50px;
   }
 }
-/* ========== Dark Portfolio Section - Premium Edition ========== */
+
 .dark-portfolio {
-  background: #080808; /* Deepest black */
+  background: #080808; 
   padding: 100px 0;
   position: relative;
   overflow: hidden;
@@ -1045,7 +1044,7 @@ nav ul li a:hover::after {
   transform: translateX(8px);
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 992px) {
   .work-grid {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1101,11 +1100,10 @@ nav ul li a:hover::after {
       justify-content: center;
   }
 }
-/* ===== LUXURY DARK BLOG SECTION ===== */
-/* ===== PREMIUM BLOG SECTION (DARK THEME) ===== */
+
 .blog-section {
     padding: 8rem 0;
-    background: #000; /* Changed white to black */
+    background: #000; 
     position: relative;
     overflow: hidden;
   }
@@ -1153,7 +1151,7 @@ nav ul li a:hover::after {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.5rem;
-    color: #fff; /* Changed text color to white */
+    color: #fff; 
   }
   
   .highlight {
@@ -1171,7 +1169,7 @@ nav ul li a:hover::after {
   .filter-btn {
     background: transparent;
     border: 1px solid #444;
-    color: #ccc; /* Changed text color to light gray */
+    color: #ccc; 
     padding: 0.5rem 1.25rem;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -1193,7 +1191,7 @@ nav ul li a:hover::after {
   }
   
   .article-card {
-    background: black; /* Changed white to black */
+    background: black; 
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
@@ -1260,7 +1258,7 @@ nav ul li a:hover::after {
   .article-body time {
     display: block;
     font-size: 0.8rem;
-    color: #aaa; /* Changed text color to light gray */
+    color: #aaa;
     margin-bottom: 0.75rem;
   }
   
@@ -1268,7 +1266,7 @@ nav ul li a:hover::after {
     font-size: 1.4rem;
     line-height: 1.4;
     margin-bottom: 1rem;
-    color: #fff; /* Changed text color to white */
+    color: #fff; 
   }
   
   .article-body h3 a {
@@ -1286,7 +1284,7 @@ nav ul li a:hover::after {
   }
   
   .article-excerpt {
-    color: #ddd; /* Changed text color to light gray */
+    color: #ddd; 
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
@@ -1342,7 +1340,7 @@ nav ul li a:hover::after {
     box-shadow: 0 15px 30px rgba(108, 99, 255, 0.3);
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .blog-section {
       padding: 5rem 0;
@@ -1363,7 +1361,6 @@ nav ul li a:hover::after {
   }
   
   
-/* Contact Section - Dark Theme */
 #contact {
     padding: 80px 0;
     background: #111;
@@ -1520,8 +1517,7 @@ nav ul li a:hover::after {
     transform: translateY(-3px);
     box-shadow: 0 ;
   }
-  /* Copyright Footer - Elegant Dark Theme */
-/* Copyright Footer - Elegant Dark Theme */
+
 .copyright {
     background: #0a0a0a;
     padding: 30px 0;
@@ -1614,13 +1610,12 @@ nav ul li a:hover::after {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(108, 99, 255, 0.2);
   }
-  
-  /* Dynamic Year */
+
   #year {
     font-weight: 500;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .footer-links {
       flex-direction: column;
@@ -1635,7 +1630,7 @@ nav ul li a:hover::after {
       font-size: 0.8rem;
     }
   }
-  /*--------------- Responsive Design for All Devices --------------*/
+ 
 @media only screen and (max-width: 1200px) {
     /* For tablets and small laptops */
     .container {
@@ -1741,7 +1736,7 @@ nav ul li a:hover::after {
   }
   
   @media only screen and (max-width: 400px) {
-    /* For very small devices */
+ 
     .header-text h1 {
       font-size: 24px;
     }
@@ -1770,7 +1765,7 @@ nav ul li a:hover::after {
     }
   }
   
-  /* Portrait tablet to landscape */
+  
   @media only screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
     .header-text {
       padding-top: 40px;
@@ -1785,7 +1780,7 @@ nav ul li a:hover::after {
     }
   }
   
-  /* Landscape phones */
+ 
   @media only screen and (max-height: 500px) and (orientation: landscape) {
     #header {
       height: auto;
@@ -1796,3 +1791,4 @@ nav ul li a:hover::after {
       padding-top: 60px;
     }
   }
+ /* Allah hafez its not end,dekhaaa hobee abar code copy kora haram okay? */
